@@ -18,9 +18,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <MuiThemeProvider>
-        
-            
+        <MuiThemeProvider>      
   <Switch>
            <Route exact path='/' render={() => <Redirect to='/register' />} />
 : <Route exact path='/' render={() => <Redirect to='/register' />} />
