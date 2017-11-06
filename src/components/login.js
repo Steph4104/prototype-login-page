@@ -17,7 +17,7 @@ class Login extends React.Component {
       return (
          <div>
          <MuiThemeProvider>
-
+         <h1>Sign In</h1>
          <div>
 
              <TextField  floatingLabelText="Enter your email" /><br/>
@@ -26,8 +26,8 @@ class Login extends React.Component {
          </div>
 
          <RaisedButton primary={true} label="Login"/><br/>
-<Link to="./register">Register</Link><span ClassName='spacetest'> / </span>
-<Link to="./recover">Forget your password</Link>
+         <Link to="./register">Register</Link><span ClassName='spacetest'> / </span>
+         <Link to="./recover">Forget your password</Link>
 
          </MuiThemeProvider>
          </div>
